@@ -1,7 +1,7 @@
 ## These two functions will help to avoid repeating computations by
 ## caching already computed results.
 
-## This function will create a matrix based on user input. 
+## This function will create a matrix object ready to be cached. 
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -17,7 +17,10 @@ makeCacheMatrix <- function(x = matrix()) {
              get_inverse = get_inverse)
 }
 
-## Write a short comment describing this function
+## This function will just create the inverse of the matrix object computed at step 1.
+## If this function has already been run on a matrix and the matrix has not changed,
+## the data will be retrieved from the cache and a message indicating this will be 
+## displayed.
 
 cacheSolve <- function(x, ...) {
       m <- x$get_inverse()
