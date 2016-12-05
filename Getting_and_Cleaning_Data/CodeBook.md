@@ -4,23 +4,15 @@ This contains and explains all the R command I used for my Getting & Cleaning Da
 I hope I haven't forgotten any .... :-)
 
 ##Commands
--`read.table` to read each text file
-
--`dim()` to check dimensions of each dataset
-
--`rbind` to merge datasets from test and train folders
-
--`grep("mean\\(\\)|std\\(\\)", myFeatures[,2])` to select only mean and standard deviation data from the Features dataset
-
--`names()` apply selected names to the respective dataset
-
--`cbind` merge Subject, X, and Y which have the same number of columns each
-
--`data.table()` create a table from a dataset
-
--`lapply` applying standard deviation and mean to all
-
--`write.table()` write table to file
+- `read.table` to read each text file
+- `dim()` to check dimensions of each dataset
+- `rbind` to merge datasets from test and train folders
+- `grep("mean\\(\\)|std\\(\\)", myFeatures[,2])` to select only mean and standard deviation data from the Features dataset
+- `names()` apply selected names to the respective dataset
+- `cbind` merge Subject, X, and Y which have the same number of columns each
+- `data.table()` create a table from a dataset
+- `lapply` applying standard deviation and mean to all
+- `write.table()` write table to file
 
 
 ##Variable Names
