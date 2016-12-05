@@ -1,4 +1,4 @@
-#Code Book for Course Project
+#ReadMe file for Course Project
 
 ##Overview
 For this project you need to download the folder with all the data from 

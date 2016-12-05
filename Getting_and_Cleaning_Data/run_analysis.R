@@ -24,9 +24,6 @@ Y <- rbind(myY_test, myY_train)
 Subject <- rbind(mysubject_test, mysubject_train)
 
 # PART TWO Extract only the measurements on the mean and standard deviation for each measurement.
-# applying labels 
-# names(X) = myFeatures
-
 # selecting only mean and standard deviation features from the features dataset
 mean_standard_selection <- grep("mean\\(\\)|std\\(\\)", myFeatures[,2])
 
